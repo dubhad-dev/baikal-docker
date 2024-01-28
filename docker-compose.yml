@@ -13,6 +13,8 @@ services:
     networks:
       - default
       - proxy
+    labels:
+      - docker-volume-backup.stop-during-backup=baikal
 
 volumes:
   config:
