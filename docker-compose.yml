@@ -1,6 +1,6 @@
 services:
   app:
-    image: ckulka/baikal:0.9.3-nginx
+    image: ckulka/baikal:0.9.4-nginx
     restart: always
     volumes:
       - config:/var/www/baikal/config
